@@ -1,0 +1,34 @@
+.zoznam1{
+background-color: rgb(123, 107, 107);
+margin: 10px;
+padding: 5px;
+
+}
+.zoznam2{
+background-color: rgb(255, 96, 96);
+padding: 5px;
+margin: 10px;
+}
+
+span{
+    background-color: chartreuse;
+}
+
+.zoznam3{
+    background-color: rgb(175, 175, 175);
+    padding: 10px;
+}
+.zoznam4{
+    list-style-type: symbols(box);  
+        background-color: rgb(157, 221, 255);
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+}
+
+.zoznam5{
+    background-color: rgb(116, 115, 115);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-left: 5px;
+}
