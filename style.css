@@ -1,34 +1,60 @@
-.zoznam1{
-background-color: rgb(123, 107, 107);
+ol{
+background-color: rgb(238, 179, 179);
 margin: 10px;
 padding: 5px;
-
+list-style: none;
 }
-.zoznam2{
-background-color: rgb(255, 96, 96);
+
+li{
+background-color: rgb(179, 91, 91);
 padding: 5px;
 margin: 10px;
+color: white;
 }
 
-span{
-    background-color: chartreuse;
+li span {
+    background-color: rgb(134, 36, 36);
+    margin: 10px;
+    padding: 5px; 
+}
+
+ol li {
+    counter-increment: my-awesome-counter;
+}
+
+ol li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: rgb(255, 255, 255);
 }
 
 .zoznam3{
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(202, 200, 200);
     padding: 10px;
 }
 .zoznam4{
-    list-style-type: symbols(box);  
         background-color: rgb(157, 221, 255);
-        margin-top: 5px;
+        color: black;
         margin-left: 5px;
         margin-right: 5px;
+        list-style: none;
 }
 
 .zoznam5{
     background-color: rgb(116, 115, 115);
-    margin-top: 5px;
+    color: black;
     margin-left: 5px;
     margin-left: 5px;
+    list-style: none;
+}
+
+.zoznam6{
+    background-color: rgb(185, 185, 185);
+    color: black;
+    margin-left: 5px;
+    margin-left: 5px;
+    list-style: none;
+}
+
+.x{
+    color: red;
 }
