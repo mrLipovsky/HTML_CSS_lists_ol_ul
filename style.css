@@ -1,3 +1,26 @@
+.zoznam1{
+background-color:white;
+color: black;
+list-style-image: url(https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/000000/external-arrow-arrows-those-icons-lineal-color-those-icons-3.png); 
+}
+.zoznam2{
+background-color:white;
+color: black;
+list-style-image: url(https://img.icons8.com/color/48/000000/watermelon.png);
+}
+.zoznam8{
+    background-color:white;
+    color: black;
+    list-style-image: url(https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-flower-gardening-vitaliy-gorbachev-flat-vitaly-gorbachev.png);
+    height: 1px;
+}
+.zoznam9{
+    background-color:white;
+    color: black;
+    list-style-image: url(https://img.icons8.com/emoji/48/000000/snowflake-emoji.png);
+    height: 2px;
+}
+
 ol{
 background-color: rgb(238, 179, 179);
 margin: 10px;
@@ -19,11 +42,11 @@ li span {
 }
 
 ol li {
-    counter-increment: my-awesome-counter;
+    counter-increment: counter;
 }
 
 ol li::before {
-    content: counter(my-awesome-counter) ". ";
+    content: counter(counter) ". ";
     color: rgb(255, 255, 255);
 }
 
@@ -57,4 +80,22 @@ ol li::before {
 
 .x{
     color: red;
+}
+
+table{
+border: none;
+border-collapse: collapse;
+}
+
+.na{
+font-size: 20px;
+background-color: rgb(5, 90, 79);
+color:white;
+padding-left: 20px;
+}
+.tx{
+font-size: 20px;
+background-color: rgb(41, 116, 106);
+color:white;
+padding-left: 20px;
 }
