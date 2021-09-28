@@ -12,42 +12,31 @@ list-style-image: url(https://img.icons8.com/color/48/000000/watermelon.png);
     background-color:white;
     color: black;
     list-style-image: url(https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-flower-gardening-vitaliy-gorbachev-flat-vitaly-gorbachev.png);
-    height: 1px;
 }
 .zoznam9{
     background-color:white;
     color: black;
-    list-style-image: url(https://img.icons8.com/emoji/48/000000/snowflake-emoji.png);
-    height: 2px;
+    list-style-image: url(https://img.icons8.com/emoji/48/000000/snowflake-emoji.png); 
 }
 
-ol{
+.zoznam10{
 background-color: rgb(238, 179, 179);
 margin: 10px;
 padding: 5px;
-list-style: none;
+list-style-position: inside;
 }
 
-li{
+.zoznam11{
 background-color: rgb(179, 91, 91);
 padding: 5px;
 margin: 10px;
 color: white;
 }
 
-li span {
+.span1{
     background-color: rgb(134, 36, 36);
     margin: 10px;
     padding: 5px; 
-}
-
-ol li {
-    counter-increment: counter;
-}
-
-ol li::before {
-    content: counter(counter) ". ";
-    color: rgb(255, 255, 255);
 }
 
 .zoznam3{
@@ -98,4 +87,25 @@ font-size: 20px;
 background-color: rgb(41, 116, 106);
 color:white;
 padding-left: 20px;
+}
+
+.dt1{
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dd1{
+    font-style: bold;
+    color: rgb(99, 96, 96);
+    margin-left: 0;
+}
+
+.dt2{
+    font-style: bold;
+    color: rgb(13, 0, 194);
+}
+
+.dt3{
+    font-style: bold;
+    color: rgb(34, 34, 34);
 }
